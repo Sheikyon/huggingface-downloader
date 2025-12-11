@@ -29,3 +29,5 @@ def huggingface_downloader():
 
     print(f"Model '{model_repo}' downloaded successfully to {model_dir}")
     return model_dir
+
+huggingface_downloader()
